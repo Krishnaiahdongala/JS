@@ -28,7 +28,7 @@
     username=e.target[0].value
     password=e.target[1].value 
     password1=e.target[2].value
-    if(username[0].toUpperCase()==username[0] && username.length>=10 && password.length>=10 && password==password1){
+    if(username[0].toUpperCase()==username[0] && username.length>=5 && password.length>=5 && password==password1){
         for(i=0;i<password.length;i++){
             if(password[i].toString!=password[i]){
             window.location.assign("./login.html");
