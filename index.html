@@ -52,8 +52,6 @@
     }
 
          let login=localStorage.getItem("regist");
-        //  console.log(typeof login);
-        // login!=null?JSON.parse(login):[];
         let login1=login!=null?JSON.parse(login):[];
         login1.push({username:username,password:password});
         localStorage.setItem("regist",JSON.stringify(login1));
